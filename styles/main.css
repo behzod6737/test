@@ -1,0 +1,81 @@
+body {
+    background-color: #21A47B;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: white;
+    width: 50vw;
+    margin: 100px auto;
+    height: 70vh;
+    border-radius: 4PX;
+    background-image: url("../images/saloh\ velik.jpg");
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+
+
+}
+
+.parent__box {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding: 0 auto;
+
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+.simple__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.simple {}
+
+img {
+    border: 6px solid transparent;
+    border-radius: 50%;
+
+
+}
+
+img:hover {
+    border: 6px solid #BAB8B4;
+    border-radius: 50%;
+
+}
+
+.paragraph {
+    margin: 0;
+    color: #BAB8B4;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+ul {
+    list-style-type: none;
+    line-height: 50px;
+    padding-left: 0;
+
+}
+
+strong:not(:nth-child(2)) {
+    padding-left: 700px;
+}
+
+strong:last-child {
+    padding-left: 600px;
+}
+
+
+span {
+    padding-right: 70px;
+}
